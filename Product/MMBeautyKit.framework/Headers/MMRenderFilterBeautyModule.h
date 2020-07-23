@@ -7,16 +7,9 @@
 
 #import <Foundation/Foundation.h>
 #import "MMRenderFilterModule.h"
+#import "MMRenderFilterBeautyKey.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-typedef NSString *MMBeautyFilterKey NS_STRING_ENUM;
-
-extern MMBeautyFilterKey const kBeautyFilterKeyRubby;       // 红润 0.0 - 1.0
-extern MMBeautyFilterKey const kBeautyFilterKeyWhitening;   // 美白 0.0 - 1.0
-extern MMBeautyFilterKey const kBeautyFilterKeySmooth;      // 磨皮 0.0 - 1.0
-extern MMBeautyFilterKey const kBeautyFilterKeyBigEye;      // 大眼 0.0 - 1.0
-extern MMBeautyFilterKey const kBeautyFilterKeyThinFace;    // 瘦脸 0.0 - 1.0
 
 /// 美颜滤镜描述信息
 @interface MMRenderFilterBeautyModule : MMRenderFilterModule

@@ -14,6 +14,8 @@
 #import "MMBeautyError.h"
 #import "MMBeautyLog.h"
 #import "MMRenderFilterBeautyModule.h"
+#import "MMRenderFilterBeautyKey.h"
+#import "MMRenderFilterLookupModule.h"
 #import "MMRenderFilterModule.h"
 #import "MMRenderModuleManager.h"
 #import "MMRenderInputType.h"

@@ -12,7 +12,7 @@
 
 typedef NS_ENUM(NSUInteger, MMRenderInputType) {
     MMRenderInputTypeStatic,    // 静态图
-    MMRenderInputTypeStream,    // 图像数据流
+    MMRenderInputTypeStream,    // 帧序列
 };
 
 #endif /* MMRenderInputType_h */
