@@ -33,6 +33,11 @@ typedef NS_OPTIONS(NSUInteger, MMFaceDetectorModuleOptions) {
 - (void)faceDetectorModule:(MMMomocvModule *)detectorModule
          detectorLoadError:(NSError *)error;
 
+- (void)faceDetectorModule:(MMMomocvModule *)detectorModule
+              faceFeatures:(NSArray<MMFaceFeature *> *)faceFeatures;
+
+- (void)faceDetectorModule:(MMMomocvModule *)detectorModule objectType:(NSString *)type bounds:(CGRect)bounds;
+
 @end
 
 @interface MMMomocvModule : NSObject

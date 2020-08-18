@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMBeautyKit'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'MMBeautyKit'
 
   s.description      = <<-DESC
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
   s.dependency 'CosmosEncrypt'
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia'
+  s.dependency 'MMXEngine'
   s.resources = 'Resources/*'
   
 end
