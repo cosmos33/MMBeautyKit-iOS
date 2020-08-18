@@ -31,9 +31,7 @@ Pod::Spec.new do |s|
   s.dependency 'CosmosEncrypt'
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia'
-  # s.dependency 'MMXEScene'
-  s.dependency 'XESceneKit'
-  s.dependency 'XEngineLuaPatch'
+  s.dependency 'MMXEngine'
   s.resources = 'Resources/*'
   
 end
