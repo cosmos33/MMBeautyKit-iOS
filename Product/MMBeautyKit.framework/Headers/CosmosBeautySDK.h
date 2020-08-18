@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_OPTIONS(NSUInteger, MMBeautyKitAuthrizationStatus) {
     MMBeautyKitAuthrizationStatusBeauty = 1 << 0,
     MMBeautyKitAuthrizationStatusAdvancedBeauty = 1 << 1,
+    MMBeautyKitAuthrizationStatusProfessionBeauty = 1 << 2,
 };
 
 @protocol CosmosBeautySDKDelegate <NSObject>
@@ -42,12 +43,8 @@ typedef NS_OPTIONS(NSUInteger, MMBeautyKitAuthrizationStatus) {
 
 /// 初始化BeautyKit环境
 /// @param appId 接入方申请的appId, 用于鉴权以及拉取配置信息
-+ (void)initSDKWithAppId:(NSString *)appId;
-
-/// 初始化BeautyKit环境
-/// @param appId 接入方申请的appId, 用于鉴权以及拉取配置信息
 /// @param delegate 设置代理
-+ (void)initSDKWithAppId:(NSString *)appId delegate:(id<CosmosBeautySDKDelegate> _Nullable)delegate;
++ (void)initSDKWithAppId:(NSString *)appId delegate:(id<CosmosBeautySDKDelegate> _Nonnull)delegate;
 
 /// 返回接入方设置的appId
 + (NSString * _Nullable)appId;
