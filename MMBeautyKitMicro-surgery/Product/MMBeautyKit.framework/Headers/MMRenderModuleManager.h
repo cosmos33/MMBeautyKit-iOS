@@ -31,8 +31,11 @@ FOUNDATION_EXPORT MMRenderObjectTriggerType ONE;           // 一指(向上)
 FOUNDATION_EXPORT MMRenderObjectTriggerType BAOQUAN;       // 抱拳
 FOUNDATION_EXPORT MMRenderObjectTriggerType BAINIAN;       // 拜年
 FOUNDATION_EXPORT MMRenderObjectTriggerType EIGHT;         // 比八/手枪
-FOUNDATION_EXPORT MMRenderObjectTriggerType ZAN;           // 大拇指
+FOUNDATION_EXPORT MMRenderObjectTriggerType ZAN;           // 大拇指/点赞
 FOUNDATION_EXPORT MMRenderObjectTriggerType FIST;          // 拳头
+FOUNDATION_EXPORT MMRenderObjectTriggerType OK;            // OK
+FOUNDATION_EXPORT MMRenderObjectTriggerType CALL;          // 打电话
+FOUNDATION_EXPORT MMRenderObjectTriggerType ROCK;          // 摇滚
 
 @class MMRenderModuleManager;
 

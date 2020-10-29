@@ -28,9 +28,19 @@ typedef NSString *MMDetectorContextClassName;
 
 @end
 
+@protocol MMHandGestureProtocol <NSObject>
+
+@property (nonatomic, readonly) NSString *type;
+
+@property (nonatomic, readonly) CGRect bounds;
+
+@property (nonatomic, readonly) float score;
+
+@end
+
 @protocol MMHandGestureResultProtocol <NSObject>
 
-@property (nonatomic, readonly) NSArray *gestures;
+@property (nonatomic, readonly) NSArray<id<MMHandGestureProtocol>> *gestures;
 
 @end
 

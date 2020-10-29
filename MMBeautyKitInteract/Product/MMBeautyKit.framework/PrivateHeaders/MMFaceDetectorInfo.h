@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MMImageDetectorProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 手势信息
 @property (nonatomic, strong) id handFeature;
 // 肢体动作信息
-@property (nonatomic, copy) NSArray *objectFeatures;
+@property (nonatomic, copy) NSArray<MMHandGestureProtocol> *objectFeatures;
 // 图像分割
 @property (nonatomic, strong) id imageSegmentationResult;
 // 躯体信息
