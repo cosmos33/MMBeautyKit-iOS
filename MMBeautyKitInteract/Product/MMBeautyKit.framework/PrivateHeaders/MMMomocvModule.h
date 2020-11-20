@@ -16,10 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_OPTIONS(NSUInteger, MMFaceDetectorModuleOptions) {
     // detector to enable
     MMFaceDetectorModuleFace = 1 << 0,              // 人脸检测器
+    MMFaceDetectorModuleAnimoji = 1 << 2,           // animoji
     MMFaceDetectorModuleObject = 1 << 4,            // 肢体检测器
     MMFaceDetectorModuleHandGesture = 1 << 5,       // 手势检测器
 
-    MMFaceDetectorModuleAll = MMFaceDetectorModuleFace | MMFaceDetectorModuleObject | MMFaceDetectorModuleHandGesture
+    MMFaceDetectorModuleAll = MMFaceDetectorModuleFace | MMFaceDetectorModuleAnimoji | MMFaceDetectorModuleObject | MMFaceDetectorModuleHandGesture
 };
 
 @protocol MMFaceDetectorModuleDelegate <NSObject>

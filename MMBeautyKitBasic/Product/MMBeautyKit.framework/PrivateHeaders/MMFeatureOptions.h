@@ -20,3 +20,6 @@ FOUNDATION_EXPORT MMDetectorOptions MMDetectorOptionsEnableMutiFace;
 
 // handGesture detector options
 FOUNDATION_EXPORT MMDetectorOptions MMDetectorOptionsHandGestureType;
+
+// faceFeaturres
+FOUNDATION_EXPORT MMDetectorOptions MMDetectorOptionsFaceFeatures;

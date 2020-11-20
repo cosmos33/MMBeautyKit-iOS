@@ -28,4 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface MMFace240DetectorContext: MMFaceDetectorContext
+
+@end
+
 NS_ASSUME_NONNULL_END
