@@ -96,4 +96,14 @@ FOUNDATION_EXPORT MMRenderObjectTriggerType ROCK;          // 摇滚
 
 @end
 
+@interface MMRenderModuleManager (MMRendering)
+
+/// 渲染函数
+/// @param pixelBuffer 输入图像
+/// @param error 错误信息
+/// @return 渲染后图像
+- (MTIImage * _Nullable)renderFrameToImage:(CVPixelBufferRef)pixelBuffer error:(NSError * __autoreleasing _Nullable *)error ;
+
+@end
+
 NS_ASSUME_NONNULL_END
