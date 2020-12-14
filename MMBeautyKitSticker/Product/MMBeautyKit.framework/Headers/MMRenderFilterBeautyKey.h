@@ -35,3 +35,8 @@ extern MMBeautyFilterKey const NOSE_TIP_SIZE; // 鼻尖            -1.0 - 1.0
 extern MMBeautyFilterKey const LIP_THICKNESS; // 嘴唇厚度        -1.0 - 1.0
 extern MMBeautyFilterKey const MOUTH_SIZE;   // 嘴唇大小         -1.0 - 1.0
 extern MMBeautyFilterKey const JAWWIDTH;    // 宽颔            -1.0 - 1.0
+
+// 提升效果
+extern MMBeautyFilterKey const SATURATION; // 饱和度 0 - 1
+extern MMBeautyFilterKey const CONTRAST; // 对比度 0 - 1
+extern MMBeautyFilterKey const SHARPEN;  // 锐化 0 - 1

@@ -19,6 +19,8 @@
 #import "MMRenderFilterModule.h"
 #import "MMRenderModuleManager.h"
 #import "MMRenderInputType.h"
+#import "MMRenderEffectConfiguration.h"
+#import "MMRenderPointsRenderFilter.h"
 
 FOUNDATION_EXPORT double MMBeautyKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char MMBeautyKitVersionString[];
